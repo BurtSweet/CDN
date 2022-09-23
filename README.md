@@ -1,1 +1,1 @@
-https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN
+https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN/
