@@ -1,5 +1,5 @@
 
-<img align="right" width="240" src="https://alist.superkylin.ga/d/%E4%B8%80%E5%88%BB%E7%9B%B8%E5%86%8C/IMG_20220330_212852.jpg">
+<img align="right" width="240" src="https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN@master/pic/%E7%8B%AC%E8%A7%92%E8%90%8C.jpeg">
 
 # 🚁 仓廪楼
 
