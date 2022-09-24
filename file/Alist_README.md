@@ -1,5 +1,5 @@
 
-<img align="right" width="240" src="https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN@master/pic/%E7%8B%AC%E8%A7%92%E8%90%8C.jpeg">
+<img align="right" width="240" src="https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN/pic/%E6%90%AC%E7%A0%96.jpg">
 
 # 🚁 仓廪楼
 
