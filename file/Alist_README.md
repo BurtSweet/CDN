@@ -1,4 +1,4 @@
-<img align="right" width="300" src="https://cdn.jsdelivr.net/gh/BurtSweet/CDN/pic/二次元美少女/0.jpeg">
+<img align="right" width="300" src="https://cdn.jsdelivr.net/gh/BurtSweet/CDN/pic/二次元美少女/000.jpeg">
 
 # 🚁 仓廪楼
 
