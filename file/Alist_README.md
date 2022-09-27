@@ -1,5 +1,4 @@
-
-<img align="right" width="240" src="https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN/pic/%E6%90%AC%E7%A0%96.jpg">
+<img align="right" width="300" src="https://cdn.jsdelivr.net/gh/BurtSweet/CDN/pic/二次元美少女/0.jpeg">
 
 # 🚁 仓廪楼
 
