@@ -1,1 +1,1 @@
-https://cdn.jsdelivr.net/gh/JoyeChen-Got/CDN@master/pic/
+https://cdn.jsdelivr.net/gh/BurtSweet/CDN@master/pic/
