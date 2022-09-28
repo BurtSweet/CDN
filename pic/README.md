@@ -1,1 +1,1 @@
-https://cdn.jsdelivr.net/gh/BurtSweet/CDN@master/pic/
+https://cdn.jsdelivr.net/gh/BurtSweet/CDN/pic/
