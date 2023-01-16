@@ -1,3 +1,3 @@
 https://cdn.jsdelivr.net/gh/BurtSweet/CDN@master/file/
-1q
+1q我
 22
