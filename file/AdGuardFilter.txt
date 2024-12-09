@@ -147,3 +147,50 @@
 # unknown
 ||data.sec.miui.com^
 
+0.0.0.0 amap.com
+0.0.0.0 baikevideo.cdn.bcebos.com
+0.0.0.0 vd3.bdstatic.com
+127.0.0.1 apm3.music.163.com
+127.0.0.1 cloud.video.taobao.com
+127.0.0.1 clientlog3.music.163.com
+127.0.0.1 crash.163.com
+127.0.0.1 httpdns.n.netease.com
+127.0.0.1 iadmatapk.nosdn.127.net
+127.0.0.1 iadmusicmat.music.126.net
+127.0.0.1 iadmusicmatvideo.music.126.net
+127.0.0.1 interface3.music.163.com/eapi/abtest/
+127.0.0.1 interface3.music.163.com/eapi/ad/
+127.0.0.1 interface3.music.163.com/eapi/appcustomconfig/
+127.0.0.1 interface3.music.163.com/eapi/lite/
+127.0.0.1 interface3.music.163.com/eapi/mlog/
+127.0.0.1 interface3.music.163.com/eapi/pl/
+127.0.0.1 interface3.music.163.com/eapi/resource-exposure/
+127.0.0.1 interface3.music.163.com/eapi/socialsquare/
+127.0.0.1 interface3.music.163.com/eapi/song/enhance/privilege
+127.0.0.1 interface3.music.163.com/eapi/song/free/trial/info
+127.0.0.1 interface3.music.163.com/eapi/sp/
+127.0.0.1 interface3.music.163.com/eapi/usertool/
+127.0.0.1 interface3.music.163.com/eapi/v2/
+127.0.0.1 interface3.music.163.com/eapi/webcache/
+127.0.0.1 p1.music.126.net
+127.0.0.1 p2.music.126.net
+127.0.0.1 p3.music.126.net
+127.0.0.1 p4.music.126.net
+127.0.0.1 p5.music.126.net
+127.0.0.1 p6.music.126.net
+127.0.0.1 s5.music.126.net
+127.0.0.1 s6.music.126.net
+127.0.0.1 s7.music.126.net
+127.0.0.1 s8.music.126.net
+127.0.0.1 statistic.live.126.net
+127.0.0.1 tbm-auth.alicdn.com
+127.0.0.1 vodkgeyttp8.vod.126.net
+127.0.0.1 vodkgeyttp9.vod.126.net
+119.188.138.102 m1.music.126.net
+221.235.187.53 m2.music.126.net
+||api.iplay.163.com/api/mlivestream/$domain=~iplay.163.com
+||iadmusicmat.music.126.net^
+||iadmusicmatvideo.music.126.net^
+||p1.music.126.net^
+||p2.music.126.net^
+
