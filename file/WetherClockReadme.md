@@ -1,12 +1,10 @@
-<!-- ⛅ 实时天气（基于和风天气） -->
-<div id="weather" style="margin-bottom: 10px;">
-  <iframe width="100%" height="60" frameborder="0" scrolling="no"
-    src="https://widget.qweather.net/simple/static/index.html?location=101190101&lang=zh&unit=c&theme=light">
-  </iframe>
+<!-- ⛅ 天气组件（来自 WeatherWidget.org） -->
+<div id="ww_3559a7b35effe" v='1.3' loc='id' a='{"t":"horizontal","lang":"zh","sl_lpl":1,"ids":["wl2815"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+  <a href="https://weatherwidget.org/" id="ww_3559a7b35effe_u" target="_blank">Free weather widget for website</a>
 </div>
-
+<script async src="https://app3.weatherwidget.org/js/?id=ww_3559a7b35effe"></script>
 <!-- 🕒 实时时钟 -->
-<div id="clock" style="font-size: 18px; font-weight: bold; margin-bottom: 10px;"></div>
+<div id="clock" style="font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 10px;"></div>
 <script>
   function updateClock() {
     const now = new Date();
@@ -17,9 +15,3 @@
   setInterval(updateClock, 1000);
   updateClock();
 </script>
-
-<!-- 👁️ 访客统计（基于 Busuanzi） -->
-<div id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
-  👁️ 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
-</div>
-<script async src="https://busuanzi.icodeq.com/busuanzi/2.3/busuanzi.pure.mini.js"></script>
