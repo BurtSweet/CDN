@@ -1,6 +1,6 @@
 # 🌍 探索，是人类的本能。
 
-## 📅 今日日期：<span id="today-date"></span> | 农历：<span id="lunar-date"></span>
+## 📅 今日日期：<span id="today-date"></span>（农历：<span id="lunar-date"></span>）
 
 ### 🧾 一言
 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
@@ -16,14 +16,14 @@
 
 <script>
   // Display current date
-  document.getElementById("today-date").textContent = new Date().toLocaleDateString();
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById("today-date").textContent = today;
 
-  // Fetch lunar date
-  const today = new Date().toISOString().split('T')[0]; // 获取当前日期
-  fetch(`https://www.36jxs.com/api/Commonweal/almanac?sun=${today}`)
+  // Fetch and display lunar date
+  fetch("https://www.36jxs.com/api/Commonweal/almanac?sun=" + today)
     .then(response => response.json())
     .then(data => {
-      document.getElementById("lunar-date").textContent = data.lunar; // 显示农历
+      document.getElementById("lunar-date").textContent = data.data.lunar;
     })
     .catch(() => {
       document.getElementById("lunar-date").textContent = "获取失败";
