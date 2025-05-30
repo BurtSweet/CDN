@@ -1,23 +1,40 @@
-<!-- ⛅ 天气组件（来自 WeatherWidget.org） -->
-<div id="weather-container" style="margin-bottom: 10px;">
-  <div id="ww_3559a7b35effe" v="1.3" loc="id" a='{
-    "t":"horizontal",
-    "lang":"zh",
-    "sl_lpl":1,
-    "ids":["wl2815"],
-    "font":"Arial",
-    "sl_ics":"one_a",
-    "sl_sot":"celsius",
-    "cl_bkg":"image",
-    "cl_font":"#FFFFFF",
-    "cl_cloud":"#FFFFFF",
-    "cl_persp":"#81D4FA",
-    "cl_sun":"#FFC107",
-    "cl_moon":"#FFC107",
-    "cl_thund":"#FF5722"
-  }'>
-    <a href="https://weatherwidget.org/" id="ww_3559a7b35effe_u" target="_blank">Free weather widget for website</a>
-  </div>
-</div>
+# 🌍 欢迎来到我的 Alist 网盘
 
-<script async src="https://app3.weatherwidget.org/js/?id=ww_3559a7b35effe"></script>
+> “探索，是人类的本能。”
+
+---
+
+## 📅 今日日期：<span id="today-date"></span>
+<script>
+  document.getElementById("today-date").textContent = new Date().toLocaleDateString();
+</script>
+
+---
+
+### 🌐 访客信息
+- **IP 地址**：<span id="ip"></span>
+- **地理位置**：<span id="location"></span>
+<script>
+  fetch("https://ipapi.co/json/")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("ip").textContent = data.ip;
+      document.getElementById("location").textContent = `${data.city}, ${data.region}, ${data.country_name}`;
+    })
+    .catch(() => {
+      document.getElementById("ip").textContent = "获取失败";
+      document.getElementById("location").textContent = "获取失败";
+    });
+</script>
+
+---
+
+### 🧾 每日一句
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<div id="hitokoto">正在加载一言...</div>
+
+---
+
+<div align="center">
+  <iframe width="100%" height="200" src="https://ip.skk.moe/simple" frameborder="1"></iframe>
+</div>
