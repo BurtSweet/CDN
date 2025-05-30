@@ -1,6 +1,7 @@
 # 🌍 探索，是人类的本能。
 
-## 📅 今日日期：<span id="today-date"></span>（农历：<span id="lunar-date"></span>）
+## 📅 今日日期：<span id="today-date"></span>
+（农历：<span id="lunar-date"></span>）
 
 ### 🧾 一言
 <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
