@@ -9,6 +9,14 @@
   document.getElementById("today-date").textContent = new Date().toLocaleDateString();
 </script>
 
+
+---
+
+### 🧾 一言
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<div id="hitokoto">正在加载一言...</div>
+
+
 ---
 
 ### 🌐 访客信息
@@ -26,14 +34,6 @@
       document.getElementById("location").textContent = "获取失败";
     });
 </script>
-
----
-
-### 🧾 每日一句
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-<div id="hitokoto">正在加载一言...</div>
-
----
 
 <div align="center">
   <iframe width="100%" height="200" src="https://ip.skk.moe/simple" frameborder="1"></iframe>
